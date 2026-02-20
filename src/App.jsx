@@ -59,7 +59,7 @@ try{
 
  
   return (
-    <Router>
+    
       <Routes>
         {/* Main Pages */}
         <Route path="/" element={<Splash />} />
@@ -99,7 +99,7 @@ try{
 
         
       </Routes>
-    </Router>
+    
   );
 }
 
