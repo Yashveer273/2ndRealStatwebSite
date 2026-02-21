@@ -80,8 +80,8 @@ function Password() {
           .replace(/\//g, "_")
           .replace(/=+$/, "");
 
-        Cookies.set("2ndtredingWeb", data.token, { expires: 7, path: "/" });
-        Cookies.set("2ndtredingWebUser", base64url, { expires: 7, path: "/" });
+        Cookies.set("tredingWeb", data.token, { expires: 7, path: "/" });
+        Cookies.set("tredingWebUser", base64url, { expires: 7, path: "/" });
 
         localStorage.setItem("userData", JSON.stringify(base64url));
 
